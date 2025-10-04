@@ -1,0 +1,9 @@
+# Ignore everything in the notebooks folder
+notebooks/*
+
+# Allow the folder itself
+!notebooks/
+
+# Allow only .ipynb files
+notebooks/*
+!notebooks/*.ipynb

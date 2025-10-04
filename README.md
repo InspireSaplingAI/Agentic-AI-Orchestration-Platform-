@@ -9,13 +9,13 @@ The project covers environment setup, modular backend service design, task plann
 
 **Activities:**
 - **Use Langroid:**
-  - Start with a single agent example (`examples/hello_langroid.py`) to understand agent structure.  
+  - Start with a single agent example (`base_agent.py`) to understand agent structure.  
   - Add a retrieval + Q&A agent using Langroid’s doc retrieval.  
 - **Use FastAPI:**
   - Wrap the Langroid agent in a minimal FastAPI endpoint.  
 
 **Deliverables:**
-- Jupyter Notebook or script running Langroid single-agent Q&A.  
+- Script running Langroid single-agent Q&A.  
 - FastAPI endpoint exposing the agent.  
 - Short report on **“agent + tool + API structure.”**  
 
@@ -24,6 +24,15 @@ The project covers environment setup, modular backend service design, task plann
 - LLM integration with Langroid  
 - Single-agent tool usage (retrieval + Q&A)  
 - FastAPI basics (endpoints, request/response model) 
+
+**Steps:**
+- Obtain API Key from closed-sourced LLMs or call Local downaloaded opensource LLMs
+- Set enviroment variable (OPENAI_API_KEY) for API Key, if using open source, can create a dummy key
+- Run session1_basics.ipynb make sure there is no issue and understand what it is doing
+- Upate base_agent.py, retrieval_agent.py and fastapi_app.py to add basic functions that shows in session1_basics
+- Start fastAPI service locally and check if you can interact with it through API call (e.g. /ask)
+- Ingest more custom data to VectorDB and test the Rag's performance
+- Implement and try more complex function calling through LLM/API   
 ---
 
 ## Session 2: Multi-tool Agents, Memory & Scheduling
