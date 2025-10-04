@@ -19,6 +19,11 @@ The project covers environment setup, modular backend service design, task plann
 - FastAPI endpoint exposing the agent.  
 - Short report on **“agent + tool + API structure.”**  
 
+**Skills Learned:**
+- Python scripting and modular coding practices  
+- LLM integration with Langroid  
+- Single-agent tool usage (retrieval + Q&A)  
+- FastAPI basics (endpoints, request/response model) 
 ---
 
 ## Session 2: Multi-tool Agents, Memory & Scheduling
@@ -36,6 +41,11 @@ The project covers environment setup, modular backend service design, task plann
 - Logs of subtasks, tool usage, and scheduling traces.  
 - Report comparing **single-tool vs multi-tool execution.**  
 
+**Skills Learned:**
+- Multi-tool agent development (retrieval, summarization, file writing)  
+- Task decomposition and goal planning  
+- CrewAI role-based multi-agent setup  
+- Context-aware memory management and scheduling  
 ---
 
 ## Session 3: Feedback Loops & Multi-Agent Systems
@@ -55,6 +65,12 @@ The project covers environment setup, modular backend service design, task plann
 - Logs & monitoring output.  
 - Experimental results report (**feedback vs no-feedback, single vs multi-agent**).  
 
+
+**Skills Learned:**
+- Multi-agent orchestration with CrewAI  
+- Feedback loops and retry strategies  
+- Fault tolerance with Agno  
+- Structured logging and monitoring of orchestration pipelines 
 ---
 
 ## Session 4: Deployment & Demonstration
@@ -72,30 +88,16 @@ The project covers environment setup, modular backend service design, task plann
 - Monitoring dashboard/log reports.  
 - Cloud-deployed version (if infrastructure available).  
 
----
-
-## Skills Learned per Session
-
-**Session 1:**
-- Python scripting and modular coding practices  
-- LLM integration with Langroid  
-- Single-agent tool usage (retrieval + Q&A)  
-- FastAPI basics (endpoints, request/response model)  
-
-**Session 2:**
-- Multi-tool agent development (retrieval, summarization, file writing)  
-- Task decomposition and goal planning  
-- CrewAI role-based multi-agent setup  
-- Context-aware memory management and scheduling  
-
-**Session 3:**
-- Multi-agent orchestration with CrewAI  
-- Feedback loops and retry strategies  
-- Fault tolerance with Agno  
-- Structured logging and monitoring of orchestration pipelines  
-
-**Session 4:**
+**Skills Learned:**
 - Wrapping orchestration engine with FastAPI (production-ready)  
 - Modular service architecture design  
 - Monitoring and progress tracking hooks  
-- Dockerization and cloud deployment (AWS/GCP/Azure)  
+- Dockerization and cloud deployment (AWS/GCP/Azure) 
+---
+
+ 
+ 
+
+
+ 
+ 
