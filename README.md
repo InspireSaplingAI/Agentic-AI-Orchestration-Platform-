@@ -55,6 +55,12 @@ The project covers environment setup, modular backend service design, task plann
 - Task decomposition and goal planning  
 - CrewAI role-based multi-agent setup  
 - Context-aware memory management and scheduling  
+
+**Steps:**
+- Setup and understand session2_multi_tool.ipynb, able to run it locally end-to-end
+- finish all the Todo part in src/agents python files
+- Finishe the Todo1 and Todo2 in session2_multi_tool.ipynb, integrate them into src/agent (update src/agents python files)
+- Start updated fastAPI service locally and check if you can interact with it through API call (e.g. /ask). python main.py
 ---
 
 ## Session 3: Feedback Loops & Multi-Agent Systems
@@ -102,9 +108,6 @@ The project covers environment setup, modular backend service design, task plann
 - Modular service architecture design  
 - Monitoring and progress tracking hooks  
 - Dockerization and cloud deployment (AWS/GCP/Azure) 
----
-
- 
  
 
 
