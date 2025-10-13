@@ -58,8 +58,8 @@ The project covers environment setup, modular backend service design, task plann
 
 **Steps:**
 - Setup and understand session2_multi_tool.ipynb, able to run it locally end-to-end
-- finish all the Todo part in src/agents python files
-- Finishe the Todo1 and Todo2 in session2_multi_tool.ipynb, integrate them into src/agent (update src/agents python files)
+- finish all the Todo part in src/agents python files 
+- Finishe the Todo1 and Todo2 in session2_multi_tool.ipynb, integrate them into src/agent (update src/agents python files) (lecture 3)
 - Start updated fastAPI service locally and check if you can interact with it through API call (e.g. /ask). python main.py
 ---
 
