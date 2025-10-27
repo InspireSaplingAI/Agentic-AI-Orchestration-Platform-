@@ -86,6 +86,10 @@ The project covers environment setup, modular backend service design, task plann
 - Feedback loops and retry strategies  
 - Fault tolerance with Agno  
 - Structured logging and monitoring of orchestration pipelines 
+
+**Steps:**
+- Complete the todo part in src/agents that referenced in session3_feedback.ipynb
+- Start fastAPI service, call the API, and see what is the difference with and without feedback and retries
 ---
 
 ## Session 4: Deployment & Demonstration
